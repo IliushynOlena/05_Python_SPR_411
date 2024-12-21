@@ -14,7 +14,7 @@ print("bool ", type(True))
 print("bool ", type(False))
 # + - 
 print(2 + 2)
-
+        
 print(7-5)
 # *
 print(4 * 9.)
@@ -26,7 +26,7 @@ print(18 / 3)
 print(18 / 3.)
 print(18. / 3)
 print(18. / 3.)
-#operator + , - , * , /, //, %, **
+#operator + , - , * , /, //, %, **   5/2 = 2.5   5//2 = 2 5%2= 1
 # **
 print(2 ** 3)
 print(2 ** 3.0)
@@ -62,11 +62,11 @@ print(2 ** 2 ** 3)# <------------------- 64
 
 print(5 + 2.5)  # = 7.5
 #print(5 + "str")# = error
-print(5 + True) # = 5  True = 1
-print(5 + False)# ????? False = 0
+print(5 + True) # = 6  True = 1
+print(5 + False)# 5 False = 0
 
 print(1_000_000)
-
+t = 8
 a = 10
 pi = 3.14
 age = 25
@@ -78,6 +78,7 @@ a_1 = 1
 a_2 = 2
 AgeOfMan = 47
 age_of_man = 41
+#  if = 78
 # print(age)
 # print = 5
 # print(age)
