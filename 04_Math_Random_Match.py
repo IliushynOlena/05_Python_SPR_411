@@ -37,31 +37,41 @@ else:
 
 print(f"Your total price  : {total} coins ")
 '''
-#Ctrl + K + C - comment
-#Ctrl + K + U - uncomment
+# #Ctrl + K + C - comment
+# #Ctrl + K + U - uncomment
 
-day = int(input("Enter number of day [1-7] : "))
-if day == 1:
-    print("Monday")
-elif day == 2:
-    print("Tuesday")   
-elif day == 7:
-    print("Sunday")
-else:
-    print("Error number day ")
+# day = int(input("Enter number of day [1-7] : "))
+# if day == 1:
+#     print("Monday")
+# elif day == 2:
+#     print("Tuesday")   
+# elif day == 7:
+#     print("Sunday")
+# else:
+#     print("Error number day ")
 
-#match
-day = int(input("Enter number of day [1-7] : "))
-match day:
-    case 1:
-        print("Monday")
-    case 2:
-        print("Tuesday")   
-    case 7:
-        print("Sunday")
-    case _:
-        print("Error number day ")
+# #match
+# print(" [1] - add numbers [2] = minus [3] - average [4] - dobutok")
+# key = int(input("Enter your choice : "))
 
+
+# day = int(input("Enter number of day [1-7] : "))
+# match day:
+#     case 1:
+#         print("Monday")
+#     case 2:
+#         print("Tuesday")   
+#     case 7:
+#         print("Sunday")
+#     case _:
+#         print("Error number day ")
+
+number=  int(input("Enter number  [100 - 999] : "))
+#123
+a = number//100 #123//100= 1
+b= number//10%10#123//10 = 12%10 = 2
+c = number%10
+print(a,b,c)
 
 # 10/2 = 5.0
 # 10%2 = 0
