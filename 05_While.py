@@ -1,6 +1,6 @@
 
 
-
+'''
 
 i = 0
 while i < 10:
@@ -52,3 +52,13 @@ else:
 #11/2 = 5.5
 #number%2 == 0 - parne
 #number%2 != 0 - ne parne
+'''
+start = int(input("\nEnter start number ---> ")) #1
+end = int(input("\nEnter end number ---> ")) # 10
+i = start
+while i <= end:
+    if i%2 != 0:
+        print(i, end=" ")
+    i +=1 
+
+
