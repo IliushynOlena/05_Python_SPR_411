@@ -1,4 +1,4 @@
-'''
+
 login = "admin"#initialization 
 print(login)
 
@@ -116,7 +116,7 @@ elif login == "exit":
 else:
     print("Error login...")
 
-    '''
+ 
 
 a = 8
 b = 7
