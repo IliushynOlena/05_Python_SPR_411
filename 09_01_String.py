@@ -1,21 +1,21 @@
-# print("Hello world")
-# print('Hello world')
+print("Hello world")
+print('Hello world')
 
-# user = "admin"
-# password = 'qwerty'
-# a = 5
-# print(user)
-# print(id(user))
-# user += "123"
-# print(user)
-# print(id(user))
+user = "admin"
+password = 'qwerty'
+a = 5
+print(user)
+print(id(user))
+user += "123"
+print(user)
+print(id(user))
 
-# line = "I\n\tLove\n\t\tPython"
-# #line_2 = "\\n - перехід на новий рядок"
-# #raw string - ігноруюсть ескейп послідовності
-# raw = r"\n - перехід на новий рядок"
-# print(line)
-# print(raw)
+line = "I\n\tLove\n\t\tPython"
+#line_2 = "\\n - перехід на новий рядок"
+#raw string - ігноруюсть ескейп послідовності
+raw = r"\n - перехід на новий рядок"
+print(line)
+print(raw)
 # print('''
 # I
 #       Love 
@@ -85,9 +85,75 @@
 # '''
 # print(img)
 
-message = "football"
+message = "football"#0 1 2 3 4 5 6 7  
 print(message)
 print(message[0])
 print(message[1])
 print(message[2])
+print(message[7])
 print(message[-1])
+print(message[len(message)-1])
+
+print(f"Lenght = {len(message)}")
+
+#конкатенація (додавання)
+line1 = "Hello, "
+line2 = "world"
+line3 = "red"
+print(line1 + line2)
+line4 = line1 + line2 + line3
+print(line4)
+
+#дублювання рядків - оператор *
+str = "Hello"
+print(str*5)
+myBigStr = str *10
+print(myBigStr)
+
+#визначення довжини рядка
+str = "Hello world"
+print(f"Length of string : {len(str)}")
+
+name = "Nazar"
+age = 22
+
+#formatLine = name + "some text..." + name + " some text " + age + name + " some text ...."
+#formatLine = name , "some text..." , name , " some text " , age , name , " some text ...."
+#formatLine = "{}  some text... {}  some text  {}  {}  some text ....".format(name,name,age,name)
+#formatLine = "{0}  some text... {0}  some text  {1}  {0}  some text ....".format(name,age)
+formatLine = f"{name}  some text... {name}  some text  {age}  {name}  some text ...."
+print(formatLine)
+
+salary = 108.25654654654654
+stringMsg = f"Your salary is {salary:10.2f} grn/h "
+#stringMsg = "Your salary is {0:20.4f} grn/h ".format(salary)
+print(stringMsg)
+
+value1= +10
+value2= -10
+#myStr = f'The number is in range [{value1} : {value2}]'
+myStr = f'The number is in range [{value1:+} : {value2:-}]'
+print(myStr)
+
+points = 10454554654
+
+myStr2 = F"You have {points:<20} points"
+print(myStr2)
+myStr2 = F"You have {points:>20} points"
+print(myStr2)
+myStr2 = F"You have {points:^20} points"
+print(myStr2)
+
+print("A")
+print(chr(65))
+print(ord('A'))
+
+for i in range(1):
+    print(f"{i} : {chr(i)}\t\t", end="")
+    if i%7 == 0:
+        print()
+
+corner = 9556
+line = 9552
+t_element = 9574
+print(f"{chr(corner)}{chr(line)*6}{chr(t_element)}")
