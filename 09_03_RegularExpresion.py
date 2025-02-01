@@ -67,10 +67,17 @@ print('=========================== re.findall(pattern, str)=====================
 print(f"\t{str_3} ----> \t {re.sub('\w{3}', "white",str_3)}")
 
 
-pattern = "^\+38\d{10}$|^\+38\(\d{3}\)\d{3}\-\d{2}\-\d{2}$"
-phone_number = input("Enter number ")
-match = re.search(pattern, phone_number)
-if match != None:
-    print(match.group(0))
-else:
-    print("Incorrect number")
+# pattern = "^\+38\d{10}$|^\+38\(\d{3}\)\d{3}\-\d{2}\-\d{2}$"
+# phone_number = input("Enter number ")
+# match = re.search(pattern, phone_number)
+# if match != None:
+#     print(match.group(0))
+# else:
+#     print("Incorrect number")
+
+line = "So5465me text 255dfhfh54"
+print(line)
+for s in line:
+    print(s)
+    if s.isdigit():
+        count_dig +=1
