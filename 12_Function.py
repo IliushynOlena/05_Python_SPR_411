@@ -72,20 +72,20 @@
 # def multy(a,b):
 #     return a * b 
 
-# def div(a,b):
-#     if b == 0:
-#         return #return == break
-#     return a / b 
+def div(a,b):
+    if b == 0:
+        return #return == break
+    return a / b 
 
-# def calculator(a,b,op):
-#     if op == '+':
-#         return summa(a,b)
-#     if op == '-':
-#         return sub(a,b)
-#     if op == '*':
-#         return multy(a,b)
-#     if op == '/':
-#         return div(a,b)
+def calculator(a,b,op):
+    if op == '+':
+        return summa(a,b)
+    if op == '-':
+        return sub(a,b)
+    if op == '*':
+        return multy(a,b)
+    if op == '/':
+        return div(a,b)
 
 
 # # res = calculator(10,7,'+')
@@ -97,15 +97,15 @@
 # # res = calculator(10,7,'/')
 # # print(f"Res = {res}")
 
-# def getOperation(example):
-#     if example.find('+') != -1:
-#         return '+'
-#     if example.find('-') != -1:
-#         return '-'
-#     if example.find('*') != -1:
-#         return '*'
-#     if example.find('/') != -1:
-#         return '/'
+def getOperation(example):
+    if example.find('+') != -1:
+        return '+'
+    if example.find('-') != -1:
+        return '-'
+    if example.find('*') != -1:
+        return '*'
+    if example.find('/') != -1:
+        return '/'
 
 # example = input("Enter example (2 + 2 )")# 25 * 24
 # op = getOperation(example)
