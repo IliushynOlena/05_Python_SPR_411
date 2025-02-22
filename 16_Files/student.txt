@@ -1,0 +1,1 @@
+{"name": "Olena", "surname": "Iliusyn", "group": "SPR411", "phone": "38097745456", "rating": 10.3, "birthday": "01.01.2000"}
